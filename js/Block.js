@@ -10,12 +10,6 @@ class Block{
      World.add(world,this.body);
  }
 
- score(){
-     if(this.visibility<0 && this.visibility>-100){
-         score++;
-     }
- }
-
  display(){
      if(this.body.speed<3){
         var angle=this.body.angle;
